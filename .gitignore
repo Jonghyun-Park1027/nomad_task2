@@ -39,3 +39,64 @@ coverage/
 # 임시 파일
 .tmp/
 temp/
+
+# Vite 개발 서버
+.vite/
+dist/
+
+# 패키지 매니저
+.pnpm-store/
+.yarn/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+.tscache/
+
+# 프로덕션 빌드
+build/
+dist/
+out/
+
+# 캐시 파일
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+
+# 에러 로그
+*.log
+logs/
+
+# 백업 파일
+*.bak
+*.backup
+*~.nib
+local.properties
+
+# 프로파일링 파일
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# 런타임 데이터
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 선택적 npm 캐시 디렉토리
+.npm
+
+# 배포 파일
+*.tgz
+
+# Yarn 무결성 파일
+.yarn-integrity
+
+# 환경별 파일
+.env.*.local
+
+# Vercel
+.vercel
